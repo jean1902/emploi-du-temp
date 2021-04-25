@@ -104,14 +104,26 @@ body{
 /* responsivité */
 
 
-@media screen and (max-width:758px){
+@media(max-width:762px){
     .container{
         margin: 200px auto;
-        max-width: 878px;
+       
         background-color: #FFFFFF;
         border-radius: 60px;
-        height: 633px;
+        height: none;
+        display: block;
+    }
+    .content1 {
+        width: 100%;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 368px;
+    }
+    .content2 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
 }
 
