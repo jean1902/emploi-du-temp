@@ -4,15 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(#8500CE,#B601C5);
+    background: linear-gradient(#158AD7,#B601C5);
 }
-.container{
-   
+.container {
     margin: 200px auto;
-    max-width: 1200px;
+    max-width: 1093px;
     background-color: #FFFFFF;
     border-radius: 60px;
-    height: 1000px;
+    height: 633px;
     display: flex;
 }
 .content1{
@@ -103,65 +102,62 @@ body{
 }
 
 /* responsivité */
-@media screen and (max-width:1200px){
-    .content2 {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        padding: 0 10px;
-    }
-}
 
 
-@media screen and ( max-width: 916px){
-  
-    .container {
-        margin: 10px auto;
-        max-width: 500px;
+@media screen and (max-width:758px){
+    .container{
+        margin: 200px auto;
+        max-width: 878px;
         background-color: #FFFFFF;
         border-radius: 60px;
-        min-height: 1030px;
-        /* display: flex; */
-        display: block;
-    }
-    .content1 img {
-        height: 500px;
-        width: 100%;
-        border-top-left-radius: 60px;
-        border-top-right-radius: 60px;
-        border-bottom-left-radius: 0px;
-    }
-    .content1 {
-        width: 100%;
+        height: 633px;
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
-    .content2 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-    .input {
-        border: none;
-        width: 50%;
-        background-color: #E5E5E5;
-        height: 100%;
-    }
-    body{
-        background-color: white;
-    }
+}
+
+
+/* page d inscription */
+
+.formulaire2{
+    display:grid;
+    align-items: center;
+    width: 400px;
+    max-width: 400px;
+    margin: 29px auto;
+    font-size: 20px;
+   
+}
+.input-form{
+    width: 400px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.input-form:focus{
+    outline: none;
+}
+.bouton-formulaire2{
+    text-align: center;
+   
+}
+.bouton-formulaire2 a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1FCC44;
+    color: white;
+   padding: 7px 60px;
+}
+.formulaire2 .item-form label{
+    display: block;
     
 }
-@media screen and(max-width:404px){
-    .formulaire {
-        width: 400px;
-        max-width: none;
-        /* margin: 89px auto; */
-        /* height: 100%; */
-    }
-    body{
-        background-color: white;
-    }
-}
+
+
+/* page d accueil  */
+
+
+
+
+
+
+
 

@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.navbar {
+    min-height: 80px;
+    display: flex;
+    padding: 30px 15px;
+    font-size: 25px;
+    justify-content: space-between;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.img-header {
+    vertical-align: middle;
+}
+
+.logo-text {
+    color: #1677E0;
+    font-weight: 700;
+}
+
+.item-nav {
+    color: #abaeafd2;
+}
+
+.item-nav span a {
+    text-decoration: none;
+}
+
+.head {
+    background-color: #158AD7;
+    position: relative;
+    min-height: 500px;
+}
+
+.content-header {
+    width: 60%;
+    margin: 0 auto;
+    padding: 75px 0;
+    color: white;
+}
+
+.content-header h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.content-header p {
+    font-size: 32px;
+}
+
+.section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section1 {
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 60px 0;
+}
+.section2{
+    font-size: 20px;
+    color: #a0a3a3;
+}
+.image,.img-section8{
+    text-align: center;
+    margin-bottom: 46px;
+}
+.section3{
+    font-size: 30px;
+    border: none;
+}
+.btn a:nth-child(1){
+    text-decoration: none;
+    color: white;
+    padding: 14px 18px;
+    background-color: red;
+    border-radius: 5px;
+}
+.btn a:nth-child(2){
+    text-decoration: none;
+    color: white;
+    padding: 14px 18px;
+    background-color: red;
+    border-radius: 5px;
+}
+.btn{
+    margin-bottom: 36px;
+}
+.section3 p:nth-child(2){
+    margin-bottom: 50px;
+}
+.section5{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+.img-section6{
+    display: inline-block;
+    margin-right: 30px;
+}
+.section7 p{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section7{
+    padding-top: 25px;
+}
+.section7 p:nth-child(2){
+    color: #abaeafd2;
+    margin-bottom: 72px;
+}
+.text-section8 {
+    font-size: 25px;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+.section7 p:first-child{
+    font-weight: 700;
+}
+.footer{
+    background-color: #26272b;
+    height: 60px;
+    padding: 20px 0;
+    color: white;
+    font-size: 20px;
+}
+/* agenda */
+.navbar-agenda{
+    height: 60px;
+    background-color:rgb(100, 72, 81);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* agenda */
+.navbar{
+    height: 40px;
+    background-color: #F1F1F1;
+}
+.body-agenda{
+    display: flex;
+  
+}
+.sidebar-left-agenda{
+    width: 20%;
+  box-shadow: 20px 20px 20px gainsboro;
+  background-color: #F8F9FA;
+    height: 95vh;
+  
+}
+.agenda-planning{
+    width: 100%;
+   
+}
+.sidebar-left-agenda div:first-child{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+.option1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.option1 a{
+    text-decoration: none;
+    
+}
+.img-option{
+    vertical-align:middle;
+    height: 40px;
+    display: inline-block;
+    margin-right: 30px;
+}
